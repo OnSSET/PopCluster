@@ -7,10 +7,9 @@ PopCluster is a QGIS plugin that uses raster population, night-time light and ad
 ## Plugin options
 As of March 2020, there are four available versions of the plugin:
 
- * **Option 1.** Plugin developed for QGIS 3.10 (the latest stable version) and works with HRSL
- * **Option 2.** Plugin developed for QGIS 3.4 and works with HRSL
- * **Option 3.** Plugin developed for QGIS 3.2 and works with HRSL 
- * **Option 4.** Plugin developed for QGIS 3.2 and works with GHS
+ * **Option 1.** Plugin developed for QGIS 3.16 (the latest stable version)
+ * **Option 2.** Plugin developed for QGIS 3.10
+ * **Archive** Plugin developed for HRSL in QGIS 3.4 and 3.2 and plugin developed for GHS in QGIS 3.2
 
 **Note!** We recommend using a HRSL based version. The GHS based version shall be used only if HRSL is not available for your area of interest.
 
@@ -18,7 +17,7 @@ As of March 2020, there are four available versions of the plugin:
 
 ### Requirements
 
-- QGIS [3.2](http://download.osgeo.org/qgis/), [3.4](http://download.osgeo.org/qgis/) or [3.10](https://qgis.org/en/site/forusers/download.html)
+- QGIS [3.2](http://download.osgeo.org/qgis/), [3.4](http://download.osgeo.org/qgis/), [3.10](http://download.osgeo.org/qgis/) or [3.16](https://qgis.org/en/site/forusers/download.html)
 - Python >= 3.6 with the following packages installed:
 	- PyQt5
 	- shutil
@@ -91,10 +90,7 @@ Sample input/output files are available for Equatorial Guinea [here](Equatorial%
 
 * The admin boundaries layer is used to delineate the area of interest and to limit the maximum area of the clusters;therefore it is highly recommended that you choose administrative boundaries that are disaggregated beyond the national borders.
 
-* The nighttime lights map show anthropogenic light sources and will be used in order to determine the population living in areas with light emitting infrastructures present. It is recommended that you use the cleaned data with outliers removed. These data are only available on a yearly basis and as of July 2019 the latest version is from 2016.
-
-* As of July 2019 the nighttime light map is mandatory to run the plugin. This will be updated in future versions of the plugin in which the use of nighttime lights will be optional.
-
+* The nighttime lights map show anthropogenic light sources and will be used in order to determine the population living in areas with light emitting infrastructures present. It is recommended that you use the cleaned data with outliers removed. These data are only available on a yearly basis and as of March of 2021 the latest version is from 2016.
 
 ## Supplementary material
 
